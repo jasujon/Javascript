@@ -54,13 +54,33 @@ import '../style/index.scss';
 // }
 // obj.print();
 
-const obj = {
-    name:'Jubayed Alam',
-    print:function(){
-        setTimeout(() =>{
-            console.log(this)
-        },1000);
-    }
+// const obj = {
+//     name:'Jubayed Alam',
+//     print:function(){
+//         setTimeout(() =>{
+//             console.log(this)
+//         },1000);
+//     }
 
+// }
+// obj.print();
+
+
+/*-------------------------------ES6 - Enhance Object | New Object Syntax -------------------*/
+let name = ' Jubayed Alam';
+let email = 'jubayedalamsujon@gmail.com';
+
+// var Person = {
+//     name : name,
+//     email: email
+
+// }
+
+const Person = {
+    name,
+    email,
+    print(){
+        console.log('Hello',this.name, this.email);
+    }
 }
-obj.print();
+Person.print();
