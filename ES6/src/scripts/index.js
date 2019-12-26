@@ -41,3 +41,26 @@ import '../style/index.scss';
 
 // const result= addMe(10,10);
 // console.log(result)
+
+/*-------------------------------ES6 - Lexical This -----------------------*/
+// const obj = {
+//     name:'Jubayed Alam',
+//     print:function(){
+//         setTimeout(function(){
+//             console.log(this)
+//         }.bind(this),1000);
+//     }
+
+// }
+// obj.print();
+
+const obj = {
+    name:'Jubayed Alam',
+    print:function(){
+        setTimeout(() =>{
+            console.log(this)
+        },1000);
+    }
+
+}
+obj.print();
