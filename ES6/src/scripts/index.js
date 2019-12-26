@@ -1,4 +1,5 @@
 import '../style/index.scss';
+
 /*-----------------------------Let vs Const vs Var Keyword----------------*/
 // const x=10;
 // // x=25;
@@ -109,3 +110,18 @@ import '../style/index.scss';
 // console.log(name,email)
 
 /*------------------------- ES6 - Module---------------------*/
+// import * as module from './module';
+// console.log(module.add(10,20));
+// console.log(module.sub(20,10));
+
+// import {add,mul} from './module';
+// console.log(add(10,10));
+// console.log(mul(10,10))
+
+
+
+
+/*------------------------- ES6 - Class---------------------*/
+// import Person from './person';
+// let person=new Person('Jubayed Alam','jubayedalamsujon@gmail.com');
+// console.log(person);
