@@ -11,10 +11,33 @@ import '../style/index.scss';
 
 /*---------------------------------ES6 - Template String And Multi line String---------------------*/
 
-const name ='Jubayed Alam';
-const age = 25
-const email = 'jubayedalamsujon@gmail.com';
+// const name ='Jubayed Alam';
+// const age = 25
+// const email = 'jubayedalamsujon@gmail.com';
 
-// const details = 'Name: ' +name + ' Age: ' +age + ' Email: ' +email;
-const details = `name: ${name} ; age : ${age} ; email : ${email}`
-console.log(details);
+// // const details = 'Name: ' +name + ' Age: ' +age + ' Email: ' +email;
+// const details = `name: ${name} ; age : ${age} ; email : ${email}`
+// console.log(details);
+
+/*----------------------------ES6 - Arrow Function---------------*/
+
+// function print(){
+
+// }
+
+// var print=function(){
+
+// }
+
+// const print=()=>{
+//     console.log('Hello Jubayed Alam');
+// }
+
+// print();
+
+// const addMe=(a,b)=>{
+//     return a+b;
+// }
+
+// const result= addMe(10,10);
+// console.log(result)
