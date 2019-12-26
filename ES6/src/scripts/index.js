@@ -67,20 +67,43 @@ import '../style/index.scss';
 
 
 /*-------------------------------ES6 - Enhance Object | New Object Syntax -------------------*/
-let name = ' Jubayed Alam';
-let email = 'jubayedalamsujon@gmail.com';
+// let name = ' Jubayed Alam';
+// let email = 'jubayedalamsujon@gmail.com';
 
-// var Person = {
-//     name : name,
-//     email: email
+// // var Person = {
+// //     name : name,
+// //     email: email
 
+// // }
+
+// const Person = {
+//     name,
+//     email,
+//     print(){
+//         console.log('Hello',this.name, this.email);
+//     }
+// }
+// Person.print();
+
+/*------------------------- ES6 - Destructuring Array And Object Details---------------------*/
+
+// const arr=[1,2,3];
+// // var a = arr[0]
+// // var b = arr[2]
+
+// // let[a, ,c]=arr;
+// // console.log(a);
+// // console.log(c);
+
+// const Obj = {
+//     name : 'Jubayed Alam',
+//     email: 'jubayedalamsujon@gmail.com',
 // }
 
-const Person = {
-    name,
-    email,
-    print(){
-        console.log('Hello',this.name, this.email);
-    }
-}
-Person.print();
+// // let name = Obj.name;
+// // let email= Obj.email;
+
+// // console.log(name);
+// // console.log(email);
+// let {name,email} = Obj;
+// console.log(name,email)
