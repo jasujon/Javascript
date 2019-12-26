@@ -128,7 +128,20 @@ import '../style/index.scss';
 
 
 /*--------------------------ES6 - Classes And Inheritance----------------------*/
-import Inheritance from './Inheritance';
+// import Inheritance from './Inheritance';
 
-let result = new Inheritance('Jubayed Alam','jubayedalamsujon@gmail.com' , 2020);
-console.log(result);
+// let result = new Inheritance('Jubayed Alam','jubayedalamsujon@gmail.com' , 2020);
+// console.log(result);
+
+/*--------------------------ES6 - Promise----------------------*/
+
+let myFirstPromise = new Promise((resolve,reject)=>{
+    let name = 'Jubayed Alam'
+    // resolve(name)
+    setTimeout(()=> resolve(name) , 3000);
+})
+// console.log(myFirstPromise);
+
+myFirstPromise .then((name)=>{
+    console.log('My Name is ' + name)
+})
