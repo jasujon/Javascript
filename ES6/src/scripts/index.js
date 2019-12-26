@@ -125,3 +125,10 @@ import '../style/index.scss';
 // import Person from './person';
 // let person=new Person('Jubayed Alam','jubayedalamsujon@gmail.com');
 // console.log(person);
+
+
+/*--------------------------ES6 - Classes And Inheritance----------------------*/
+import Inheritance from './Inheritance';
+
+let result = new Inheritance('Jubayed Alam','jubayedalamsujon@gmail.com' , 2020);
+console.log(result);
