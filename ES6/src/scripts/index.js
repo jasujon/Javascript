@@ -107,3 +107,5 @@ import '../style/index.scss';
 // // console.log(email);
 // let {name,email} = Obj;
 // console.log(name,email)
+
+/*------------------------- ES6 - Module---------------------*/
